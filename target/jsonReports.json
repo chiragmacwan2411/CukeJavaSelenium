@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-12T16:51:39.542Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2147640000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginSteps.browserSetUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify login section",
+        "description": "",
+        "id": "login-functionality;verify-login-section;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 89849000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginSteps.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 766392000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 729649000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters mngr299205 and gYsAqym",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr299205",
+                  "offset": 12
+                },
+                {
+                  "val": "gYsAqym",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1360664000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.clicks_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16711000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is successfully logged in and navigated to the Home page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_successfully_logged_in_and_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1222337000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user logs out",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_logs_out()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
